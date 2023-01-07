@@ -2,6 +2,7 @@ import {  Route, Routes } from 'react-router-dom'
 
 import './App.css';
 import LoginSignup from './pages/LoginSignup';
+import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
            {/* <Route path='/home' element={<Home/>}/> */}
            {/* <Route path='/test' element={<Test/>}/> */}
            {/* <Route path='/payment' element={<Payment/>}/> */}
-           {/* <Route path='/profile' element={<Profile/>}/> */}
+           <Route path='/profile' element={<Profile/>}/>
            {/* <Route path='/admin' element={<Admin/>}/> */}
       </Routes>
     </div>
