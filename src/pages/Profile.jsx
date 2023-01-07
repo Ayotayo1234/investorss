@@ -2,7 +2,6 @@ import React from 'react'
 import './profile.scss'
 import { Link } from 'react-router-dom'
 import Nav from '../components/Nav'
-import profile from '../pages/img/profile-pics.webp'
 
 const Profile = () => {
     // console.log(JSON.parse(localStorage.getItem('user')).data.id);
