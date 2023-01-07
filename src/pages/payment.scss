@@ -1,0 +1,190 @@
+.payment-box{
+    height: 95vh;
+    background-color: rgb(231, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.arrow{
+    height: 5vh;
+    padding: 20px 40px;
+}
+.arrow img{
+    height: 40px;
+    width: 30px;
+    transform: translateY(-50%) rotate(90deg);
+}
+// .home-body{
+//     display: flex;
+// }
+.account{
+    background: white;
+    width: 50%;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // color: red;font-size: 10px;
+
+}
+.file-btn{
+    display: flex;
+    flex-direction: column;
+}
+.pay{
+    width: 20%;
+    background:  rgb(0, 124, 65);
+    height: 80%;
+    color: white;
+    padding-left: 20px;
+    // font-size: 15px;
+    // font-weight: 500;
+    // padding: 20px;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 30px;
+}
+.details span{
+    color: rgb(0, 124, 65);
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.details{
+    display: flex;
+}
+.details, .bank, .acct-name, .bank-num, .pay{
+    font-size: 30px;
+    font-weight: 500;
+}
+.paidd{
+    width: fit-content;
+    padding: 10px 40px;
+    border-radius: 4px;
+    background: rgb(0, 124, 65);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 7%;
+}
+// .submit-receipt:disabled{
+//     background: #000;
+// }
+.submit-receipt{
+    color:  rgb(0, 124, 65);
+     background:  rgb(255, 255, 255);
+    width: fit-content;
+    padding:5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.upload{
+    font-size: 15px;
+    color:  rgb(255, 255, 255);
+}
+.none{
+    display:none;
+}
+.btns{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.warning{
+    font-size: 12px;
+    color: rgb(176, 254, 176);
+    position: absolute;
+    bottom: 5em;
+}
+.name ,.amount{
+    margin-bottom: 20px;
+}
+.sucess{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sucess .name{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.sucess img{
+    height: 100px;
+}
+.photo-input{
+    width: 90%;
+}
+@media only screen and (max-width:975px){
+    .arrow img{
+        height: 20px;
+        width: 30px;
+    }
+    .pay{
+       width: 90%;
+       height: 30%;
+    }
+    .account{
+        width: 90%;
+        font-size: 10px;
+        height: 60%;
+        font-size: 10px;
+    }
+    .payment-box{
+        flex-direction: column;
+        font-size: 10px;
+   
+}
+.file-btn{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details, .bank, .acct-name, .bank-num, .pay{
+    font-size: 20px;
+    font-weight: 500;
+}
+.sucess .name{
+    font-size: 20px;
+}
+// .sucess .name{
+//     color: rgb(0, 255, 60);
+//     font-size: 10px;
+// }
+.btns{
+    margin-top: 2%;
+    margin-right: 5%;
+}
+.photo-input{
+    width: 40%;
+}
+.sucess img{
+   display: none;
+}
+.sucess{
+    justify-content: space-evenly;
+    gap: 20px;
+    // flex-direction: row;
+}
+}
+@media only screen and (max-width:475px){
+    .details, .bank, .acct-name, .bank-num, .pay {
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width:399px){
+    .details, .bank, .acct-name, .bank-num, .pay{
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
